@@ -1,0 +1,6 @@
+The extracted hashes were identified as md5crypt hashes.
+John the Ripper issued a warning suggesting the use of the md5crypt-long format, indicating multiple possible interpretations of the hash structure.
+john --wordlist=/usr/share/john/password.lst --rules msfhash.txt                   
+Warning: detected hash type "md5crypt", but the string is also recognized as "md5crypt-lon
+Use the "--format=md5crypt-long" option to force loading these as that type instead
+Using default input encoding: UTF-8
