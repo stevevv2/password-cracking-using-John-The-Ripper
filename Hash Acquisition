@@ -1,2 +1,3 @@
 The hashes were acquired through exploiting a vulnerability on metasploitable2 running a vsftpd 2.3.4
 service that gave me root access using the msfconsole.
+After Gaining root access I listed all the password hashes using cat /etc/shadow and stored them on my machine.
